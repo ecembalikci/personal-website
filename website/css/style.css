@@ -1,0 +1,50 @@
+p{
+    color:#565360;
+    font-size: 26px;
+
+}
+header{
+    background-color: #d1bcf0;
+}
+footer{
+    background-color:#F2F5F5 ;
+}
+#about{
+    border:3px solid lavender;
+}
+.highlight{
+    font-weight: bold;
+    background-color:lightgray;
+  
+}
+a:visited{
+    color:lightskyblue
+}
+a:hover{
+    text-decoration: indigo;
+}
+.pp:hover{
+    border:2px;
+    transform:scale(1.15) rotate(360deg);
+}
+a:focus{
+    color:white;
+    background-color: darkslateblue;
+}
+.pp{
+    border-radius: 50%;
+    width: 45%;
+    
+}
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
